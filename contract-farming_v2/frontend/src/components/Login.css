@@ -1,0 +1,64 @@
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f8f4f1; /* Light skin tone background */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: 1px solid #d1cfc4; /* Subtle border in a slightly darker skin tone */
+}
+
+h2 {
+  text-align: center;
+  color: #009688; /* Greenish cyan */
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+ 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #b2dfdb; /* Light greenish cyan border */
+  border-radius: 8px;
+  font-size: 20px;
+  width: 100%;
+  transition: border-color 0.3s ease;
+  border: 3px solid #1b1a1a;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #009688; /* Greenish cyan border on focus */
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background-color: #009688; /* Greenish cyan */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #00796b; /* Darker greenish cyan */
+}
+.login-footer a{
+  color: #009688;
+}
+.login-container h2{
+  font-size: 30px;
+}
+p{
+  font-size: 20px;
+}

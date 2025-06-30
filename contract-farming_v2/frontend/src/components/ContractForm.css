@@ -1,0 +1,75 @@
+/* ContractForm.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f0f4f4; /* Light background color for the entire page */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw;  /* Full viewport width */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px; /* Adjust the width as needed */
+  padding: 20px;
+  border: 1px solid #b2dfdb; /* Lighter skin tone */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* White background for the form */
+  height: 40vh;
+}
+
+h2 {
+  text-align: center;
+  color: #00695c; /* Greenish cyan */
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #b2dfdb; /* Lighter skin tone */
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Hide spinner on number inputs */
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* Hide spinner on webkit browsers */
+  margin: 0;
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing */
+  min-height: 100px; /* Set minimum height for the textarea */
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0c5449; /* Greenish cyan */
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #218838; /* Darker greenish cyan */
+}

@@ -1,0 +1,78 @@
+/* Register.css */
+
+.register-container {
+  max-width: 400vh;
+  
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #5b76aa59; /* Light skin tone background */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: transparent;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 30vh;
+  margin: auto;
+  background:linear-gradient(360deg,rgb(192, 189, 189),rgb(181, 243, 111));
+  
+  
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  padding: 12px;
+  margin: 40px 0 20px 0;
+ 
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fffefe;
+  border: 3px solid #1b1a1a;
+  
+}
+
+select {
+  appearance: none;
+  background-color: #fff;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 4 5%27%3e%3cpath fill=%27%23007bff%27 d=%27M2 0L0 2h4zM0 3h4L2 5z%27/%3e%3c/svg%3e');
+  background-repeat: no-repeat;
+  background-position: right 12px top 50%;
+  background-size: 12px 12px;
+  padding-right: 40px;
+  cursor: pointer;
+  
+}
+
+button {
+  padding: 12px;
+  background-color: #00bcd4; /* Greenish cyan color */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0097a7; /* Darker shade of greenish cyan */
+}
+input{
+  border: 3px solid #1b1a1a;
+}
+.register-container h2{
+  font-size: 30px;
+}

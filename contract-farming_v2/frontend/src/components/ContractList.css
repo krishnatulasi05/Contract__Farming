@@ -1,0 +1,60 @@
+#contract-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Center the items horizontally */
+  padding: 20px;
+}
+
+#contract-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px; /* Adjust the width as needed */
+  box-sizing: border-box;
+  margin-bottom: 20px; /* Add space between rows */
+  text-align: center; /* Center content inside the card */
+}
+
+#contract-card img {
+  width: 100%;
+  height: 180px; /* Fixed height to maintain uniformity */
+  object-fit: cover; /* Ensures the image covers the area and maintains aspect ratio */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#contract-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+#contract-card p {
+  margin: 10px 0;
+}
+
+#contract-card button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+  margin: 5px;
+}
+
+#contract-card button:hover {
+  background-color: #218838;
+}
+
+#contract-card button.reject {
+  background-color: #dc3545;
+}
+
+#contract-card button.reject:hover {
+  background-color: #c82333;
+}

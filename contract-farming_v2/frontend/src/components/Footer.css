@@ -1,0 +1,58 @@
+footer {
+    position: absolute;
+    top:100%;
+    background-color: #282c34; /* Dark background to match Navbar */
+    color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .footer-section h3 {
+    border-bottom: 2px solid #61dafb; /* Accent color for headings */
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p, .footer-section a {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-section a {
+    text-decoration: none;
+    color: #61dafb; /* Accent color for links */
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+  }
+  

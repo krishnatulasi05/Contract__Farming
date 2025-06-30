@@ -1,0 +1,121 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #f2f4f5; 
+  overflow-x: hidden; 
+}
+
+
+#app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#navbar {
+  background-color: #009688; 
+  color: white;
+  padding: 10px 20px;
+}
+
+#navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+#footer {
+  background-color: #00796b; 
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+#background-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(0, 150, 136, 0.5), rgba(255, 255, 255, 0.1));
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+  z-index: -1;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+#content {
+  flex: 1;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} 
+
+
+
+
+#content {
+  position: relative;
+  z-index: 1; /* Ensure content is above the video */
+  padding: 20px;
+  background: transparent; /* Make sure content background is transparent */
+  overflow: hidden; /* Prevents overflow issues */
+}
+
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the entire area */
+  z-index: -1; /* Ensure video is behind content */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
